@@ -1,17 +1,17 @@
 class Docslib < Formula
   desc "CLI tool to query documentation registry"
   homepage "https://github.com/fdarian/docslib"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_arm do
-    url "https://github.com/fdarian/docslib/releases/download/%40docslib%2Fcli%400.1.1/docslib-darwin-arm64.tar.gz"
-    sha256 "1b2fbc267e2cba6247a7ae7196af6faaf7ddfa46cc5ac01f5c7dccd0ce641f06"
+    url "https://github.com/fdarian/docslib/releases/download/%40docslib%2Fcli%400.2.0/docslib-darwin-arm64.tar.gz"
+    sha256 "8d428141b86e396e59a2e5bb4565c1eb1f1378de847a4522543b908d8283c2e6"
   end
 
   on_intel do
-    url "https://github.com/fdarian/docslib/releases/download/%40docslib%2Fcli%400.1.1/docslib-darwin-x64.tar.gz"
-    sha256 "95f2d52804284a4cefd438cd5998a6b235919293f0f26c78b4aae063756836dc"
+    url "https://github.com/fdarian/docslib/releases/download/%40docslib%2Fcli%400.2.0/docslib-darwin-x64.tar.gz"
+    sha256 "53d936748794a19833b69bdb3e72329403e1ba20f91ab58023b3f7e4de67857c"
   end
 
   def install
