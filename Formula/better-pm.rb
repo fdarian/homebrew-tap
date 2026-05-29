@@ -1,28 +1,28 @@
 class BetterPm < Formula
   desc "CLI for package manager operations in monorepos"
   homepage "https://github.com/fdarian/better-pm"
-  version "0.3.4"
+  version "0.3.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fdarian/better-pm/releases/download/better-pm%400.3.4/better-pm-darwin-arm64.tar.gz"
-      sha256 "ec3333f01eb087698c44c8d9b60c629728fa4f95da8f393b2a73a23da5a6612b"
+      url "https://github.com/fdarian/better-pm/releases/download/better-pm%400.3.5/better-pm-darwin-arm64.tar.gz"
+      sha256 "9eeabf02d7c77b5a54990450469fe4cb6206e383433e50add9aba53200ad14de"
     end
     on_intel do
-      url "https://github.com/fdarian/better-pm/releases/download/better-pm%400.3.4/better-pm-darwin-x64.tar.gz"
-      sha256 "2dcaebce3ccd4d3b30e3dd8a3b99d1e39658a8cc405be6ad2023a3878821637c"
+      url "https://github.com/fdarian/better-pm/releases/download/better-pm%400.3.5/better-pm-darwin-x64.tar.gz"
+      sha256 "8367625d6f9dc0c3f90c9e107588a3ae2efea784a20e009e1b468ad4c2b4c895"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fdarian/better-pm/releases/download/better-pm%400.3.4/better-pm-linux-arm64.tar.gz"
-      sha256 "3a36a1bf68c594d11525ed008dccb8fe6fc5c59b56797d729738edba88e8f73e"
+      url "https://github.com/fdarian/better-pm/releases/download/better-pm%400.3.5/better-pm-linux-arm64.tar.gz"
+      sha256 "08e9a99e2f1cb207e4703f4522f05db274ec29253c4355fb55a3405d9ba809c1"
     end
     on_intel do
-      url "https://github.com/fdarian/better-pm/releases/download/better-pm%400.3.4/better-pm-linux-x64.tar.gz"
-      sha256 "eeef612ee2024833f4796d17a586cb7d2448d6e25566ae24437ab4e2f2859cab"
+      url "https://github.com/fdarian/better-pm/releases/download/better-pm%400.3.5/better-pm-linux-x64.tar.gz"
+      sha256 "6c83866ce9b5bba8f00d33ec8ab42805fc4d6fddff118a3a8514fec530e13243"
     end
   end
 
