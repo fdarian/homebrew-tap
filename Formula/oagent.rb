@@ -1,25 +1,25 @@
 class Oagent < Formula
   desc "MCP server that exposes ACP-compatible coding agents"
   homepage "https://github.com/fdarian/oagent"
-  version "0.2.1"
+  version "0.2.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fdarian/oagent/releases/download/oagent%400.2.1/oagent-darwin-arm64.tar.gz"
-      sha256 "96bdcb234613b264ca52b086101bffef64b5d5238aa862f929dbcf5e3c119002"
+      url "https://github.com/fdarian/oagent/releases/download/oagent%400.2.2/oagent-darwin-arm64.tar.gz"
+      sha256 "274ab2e9ff61c544c0f8693bb997abc58cdefa56fb26e8fbc01077836d8d68e3"
     else
-      url "https://github.com/fdarian/oagent/releases/download/oagent%400.2.1/oagent-darwin-x64.tar.gz"
-      sha256 "363ad553e0b9a210493f556d78679a4937729b7fc6ac99cc22e13fe56deaf5ff"
+      url "https://github.com/fdarian/oagent/releases/download/oagent%400.2.2/oagent-darwin-x64.tar.gz"
+      sha256 "4d1f4efee13819f3dc6ddd15000b4c71373df951155dd532d63a15598be02674"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fdarian/oagent/releases/download/oagent%400.2.1/oagent-linux-arm64.tar.gz"
-      sha256 "d8808d0dc32fadef7a18addda14b11fc650367f19ff9eea88743ce36250e78a5"
+      url "https://github.com/fdarian/oagent/releases/download/oagent%400.2.2/oagent-linux-arm64.tar.gz"
+      sha256 "1a7d79dc706f7b17b885aa05a28e2771d9e58e4d89e54cda277ee43e911d99ae"
     else
-      url "https://github.com/fdarian/oagent/releases/download/oagent%400.2.1/oagent-linux-x64.tar.gz"
-      sha256 "011fd37d12ae5559087165c2a91575786db336be6c847274db06a392eb29096f"
+      url "https://github.com/fdarian/oagent/releases/download/oagent%400.2.2/oagent-linux-x64.tar.gz"
+      sha256 "26d9bb962c0c20154bc97cba177f58ae2d736c0b448f0b674ca45878220fd22d"
     end
   end
 
