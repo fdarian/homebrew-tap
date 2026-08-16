@@ -1,26 +1,26 @@
 class Rskills < Formula
   desc "Read remote Anthropic-style skills without installing them"
   homepage "https://github.com/fdarian/rskills"
-  version "0.1.1"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fdarian/rskills/releases/download/rskills-cli%400.1.1/rskills-darwin-arm64.tar.gz"
-      sha256 "9c68b89990d091069cfd0dbdaff096d737921d6d5762e4abf1a9405bfb5f010a"
+      url "https://github.com/fdarian/rskills/releases/download/rskills-cli%400.2.0/rskills-darwin-arm64.tar.gz"
+      sha256 "cbe027e6d255122acd7c310ff74527b63eb23a7032da78744ac46598437323cf"
     else
-      url "https://github.com/fdarian/rskills/releases/download/rskills-cli%400.1.1/rskills-darwin-x64.tar.gz"
-      sha256 "87a041cbc11b7a9645b2e9eaa1c790b5be7f3d59d218ef13f21e325ca6d01803"
+      url "https://github.com/fdarian/rskills/releases/download/rskills-cli%400.2.0/rskills-darwin-x64.tar.gz"
+      sha256 "02f3821cf62df4b2df2898d83368959ca705c919523a6cebb852213d7a4dc5bc"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fdarian/rskills/releases/download/rskills-cli%400.1.1/rskills-linux-arm64.tar.gz"
-      sha256 "12e4547783b772d268a0995e77d6b44cff3d6537e84aeb96071c53c16d4799de"
+      url "https://github.com/fdarian/rskills/releases/download/rskills-cli%400.2.0/rskills-linux-arm64.tar.gz"
+      sha256 "3337c2b006d5a22bddcf53a7f2d0d7cfd012c4e6b4b1d9cd78b0b1abacd5925e"
     else
-      url "https://github.com/fdarian/rskills/releases/download/rskills-cli%400.1.1/rskills-linux-x64.tar.gz"
-      sha256 "b14856e64d1de8bcad50290f12b6db678a8fa0be2924d69cdbee77e60fbac77d"
+      url "https://github.com/fdarian/rskills/releases/download/rskills-cli%400.2.0/rskills-linux-x64.tar.gz"
+      sha256 "68f221b1a0af41fe8bd24315243a350dc63bbcbaa23b6f94a0e887107746982c"
     end
   end
 
