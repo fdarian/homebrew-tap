@@ -1,6 +1,6 @@
 cask "nisi" do
-  version "0.2.1"
-  sha256 "0f35fd5e01e0a1336edb4185b726df14fac868c705cff039357fc064c23e99a3"
+  version "0.2.2"
+  sha256 "ab55c49b30d0208add00d1edf916755703ac6ff2b248e4fc1d62600d9baf48fd"
 
   url "https://github.com/fdarian/nisi/releases/download/v#{version}/nisi-macos-arm64.dmg"
   name "nisi"
@@ -12,6 +12,11 @@ cask "nisi" do
 
   app "nisi.app"
   binary "#{appdir}/nisi.app/Contents/MacOS/nisi-cli", target: "nisi"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/nisi.app"]
+  end
 
   zap trash: [
     "~/Library/Application Support/com.nisi.desktop",
