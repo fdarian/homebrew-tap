@@ -1,6 +1,6 @@
 cask "nisi" do
-  version "0.2.3"
-  sha256 "016e38e3f81738a5dc0c31683ef666d535804cd3d8b8bdef91edf655ebf8df5a"
+  version "0.2.4"
+  sha256 "28845fb6ee6f1d560192cd8e25052747e2230c37e6d729cbc0de40227f800734"
 
   url "https://github.com/fdarian/nisi/releases/download/v#{version}/nisi-macos-arm64.dmg"
   name "nisi"
