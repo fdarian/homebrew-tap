@@ -1,6 +1,6 @@
 cask "nisi" do
-  version "0.2.4"
-  sha256 "28845fb6ee6f1d560192cd8e25052747e2230c37e6d729cbc0de40227f800734"
+  version "0.3.0"
+  sha256 "a024111d479f00189652e0e5f3b8e0764cb1b9947e80073c895cde2957f11642"
 
   url "https://github.com/fdarian/nisi/releases/download/v#{version}/nisi-macos-arm64.dmg"
   name "nisi"
@@ -17,6 +17,8 @@ cask "nisi" do
     system_command "/usr/bin/xattr",
                    args: ["-dr", "com.apple.quarantine", "#{appdir}/nisi.app"]
   end
+
+  uninstall quit: "com.nisi.desktop"
 
   zap trash: [
     "~/Library/Application Support/com.nisi.desktop",
