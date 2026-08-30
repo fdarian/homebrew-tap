@@ -1,6 +1,6 @@
 cask "nisi" do
-  version "0.3.2"
-  sha256 "d15309725a1fa45be14e48229c2c00e928e7b20470514754590f183b6c70900b"
+  version "0.4.0"
+  sha256 "133c40e8dca279aa1be01654bc247f6f92a4495a1f35af3603020c093d4f684e"
 
   url "https://github.com/fdarian/nisi/releases/download/v#{version}/nisi-macos-arm64.dmg"
   name "nisi"
@@ -8,7 +8,7 @@ cask "nisi" do
   homepage "https://github.com/fdarian/nisi"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "nisi.app"
   binary "#{appdir}/nisi.app/Contents/MacOS/nisi-cli", target: "nisi"
