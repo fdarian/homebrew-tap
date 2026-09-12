@@ -1,25 +1,25 @@
 class Otheme < Formula
   desc "Apply shared themes across editor and terminal targets"
   homepage "https://otheme.fdarian.com"
-  version "0.2.2"
+  version "0.2.3"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fdarian/otheme/releases/download/otheme%400.2.2/otheme-darwin-arm64.tar.gz"
-      sha256 "5d495c04f9041d6ffba6322aab6c9fce1e5ccd3ee8cda201a2e5895a2e78221f"
+      url "https://github.com/fdarian/otheme/releases/download/otheme%400.2.3/otheme-darwin-arm64.tar.gz"
+      sha256 "5e7ff66f52609db7251a979eaf9807ac5dd36f8706813420a728597a72c0f119"
     else
-      url "https://github.com/fdarian/otheme/releases/download/otheme%400.2.2/otheme-darwin-x64.tar.gz"
-      sha256 "1ee4d61b3aaee6e5c2162b94c0e4dbcb28333d577f4dfa1155694d391412c16f"
+      url "https://github.com/fdarian/otheme/releases/download/otheme%400.2.3/otheme-darwin-x64.tar.gz"
+      sha256 "53b78062f3878d1622809c39c513646577bb548c32e7129ecbdafe3dc4a2515a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fdarian/otheme/releases/download/otheme%400.2.2/otheme-linux-arm64.tar.gz"
-      sha256 "0d3d3c6edbcac3294594faf50830ffe549f0d7309d138f2dd385232c70d37cf5"
+      url "https://github.com/fdarian/otheme/releases/download/otheme%400.2.3/otheme-linux-arm64.tar.gz"
+      sha256 "b953d6a6f79e3911f1c9f36b92b1a670a2e7b6d7664fdee18f9ea684ae857bf2"
     else
-      url "https://github.com/fdarian/otheme/releases/download/otheme%400.2.2/otheme-linux-x64.tar.gz"
-      sha256 "a877a0ea8757415d716091c861e459d164f80d98cb82c1171a836155c20f43af"
+      url "https://github.com/fdarian/otheme/releases/download/otheme%400.2.3/otheme-linux-x64.tar.gz"
+      sha256 "26b04e9f7a5a3abff84aa392aa7eece262fd8610861e12783565bac5c78a4103"
     end
   end
 
