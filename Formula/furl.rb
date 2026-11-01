@@ -1,25 +1,25 @@
 class Furl < Formula
   desc "Fetch a URL and return LLM-optimized markdown"
   homepage "https://github.com/fdarian/furl"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fdarian/furl/releases/download/furl-cli%400.2.0/furl-darwin-arm64.tar.gz"
-      sha256 "fbb067c01f7aa48683630037a5622149339cb14d961d5fcd20c50e763065c462"
+      url "https://github.com/fdarian/furl/releases/download/furl-cli%400.3.0/furl-darwin-arm64.tar.gz"
+      sha256 "5237b6a5e520480a12891580e1a00f83434e2c5ea50fbb0a87b96d3ab3363686"
     else
-      url "https://github.com/fdarian/furl/releases/download/furl-cli%400.2.0/furl-darwin-x64.tar.gz"
-      sha256 "78984d093572655e16d52c430a1fe315e8dc260f25896f0a7830f62631b201fe"
+      url "https://github.com/fdarian/furl/releases/download/furl-cli%400.3.0/furl-darwin-x64.tar.gz"
+      sha256 "053fd0f3bff4d90d122a72e787f053898aea28b24468a8318002ded8cfd78b08"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fdarian/furl/releases/download/furl-cli%400.2.0/furl-linux-arm64.tar.gz"
-      sha256 "12d5c30f5a0e906ad4939bb2ed0e7eccd130e1724f91cffdd3aa2a5984629ff8"
+      url "https://github.com/fdarian/furl/releases/download/furl-cli%400.3.0/furl-linux-arm64.tar.gz"
+      sha256 "284b6ed22300890f9b0671e3f40bdbeb91d6f0493d43378096e646bf49e39414"
     else
-      url "https://github.com/fdarian/furl/releases/download/furl-cli%400.2.0/furl-linux-x64.tar.gz"
-      sha256 "875ba6b90dd724a4104521b4b8cf14e587d9f1549bec02cb5c0cf9cd6032f8b2"
+      url "https://github.com/fdarian/furl/releases/download/furl-cli%400.3.0/furl-linux-x64.tar.gz"
+      sha256 "1691cb74c2630b462b2d290cf81021c991b9dcef568cc3663fa28b97053b0de2"
     end
   end
 
