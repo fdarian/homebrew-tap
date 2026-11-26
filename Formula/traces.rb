@@ -1,25 +1,25 @@
 class Traces < Formula
   desc "Read logs, deployments and traces from Vercel, Railway and Jaeger"
   homepage "https://github.com/fdarian/traces"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fdarian/traces/releases/download/%40traces%2Fcli%400.1.1/traces-darwin-arm64.tar.gz"
-      sha256 "7c0e3b1754db337d9fc42134098f1b1b8ed4c987c10ce7349b8d2ead216becc1"
+      url "https://github.com/fdarian/traces/releases/download/%40traces%2Fcli%400.1.2/traces-darwin-arm64.tar.gz"
+      sha256 "2aa566003e294f3ec16476baac22ea40bbb48acc58281ee057bed1cf6a28423e"
     else
-      url "https://github.com/fdarian/traces/releases/download/%40traces%2Fcli%400.1.1/traces-darwin-x64.tar.gz"
-      sha256 "0ed3a5c7ed4b9d3f18fc9cf50338d5c878d201beaa11fa0d1716802c2de0610d"
+      url "https://github.com/fdarian/traces/releases/download/%40traces%2Fcli%400.1.2/traces-darwin-x64.tar.gz"
+      sha256 "0647ca3c94dacfe5cc6f78e3e94e6e6582d36b677558f6d9fbf108da98dd29cd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fdarian/traces/releases/download/%40traces%2Fcli%400.1.1/traces-linux-arm64.tar.gz"
-      sha256 "ea7a6f89bdb4efd69a0297e7b698a6d49e594a0d9f7fce04097667e176836c12"
+      url "https://github.com/fdarian/traces/releases/download/%40traces%2Fcli%400.1.2/traces-linux-arm64.tar.gz"
+      sha256 "6706144c3852d4773a1a64710cb1f93a8a818fe2cd54b629a2434ba9d893d36a"
     else
-      url "https://github.com/fdarian/traces/releases/download/%40traces%2Fcli%400.1.1/traces-linux-x64.tar.gz"
-      sha256 "e2f443dad84dd24f1c728e9dde8e74199ec1f6d70f41c04383ef7f8977dbf899"
+      url "https://github.com/fdarian/traces/releases/download/%40traces%2Fcli%400.1.2/traces-linux-x64.tar.gz"
+      sha256 "015b92432747a91ca7a0943c22b00df30d22d8ac0f53238eda8c0eab7a5e3fc4"
     end
   end
 
